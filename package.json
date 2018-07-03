@@ -1,0 +1,34 @@
+{
+  "name": "updatasync",
+  "version": "1.0.0",
+  "description": "优品同步工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "pm2 start index.js",
+    "stop": "pm2 stop all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubforlyndon/UpDataSync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githubforlyndon/UpDataSync/issues"
+  },
+  "homepage": "https://github.com/githubforlyndon/UpDataSync#readme",
+  "dependencies": {
+    "@taf/taf-config-helper": "^1.0.5",
+    "@taf/taf-logs": "^0.1.1",
+    "@taf/taf-rpc": "^3.1.4",
+    "@taf/taf-stream": "^4.0.0",
+    "@taf/taf-utils": "^1.1.1",
+    "co": "^4.6.0",
+    "debug": "^2.3.0",
+    "fs-extra": "^3.0.1",
+    "morgan": "^1.7.0",
+    "mysql": "^2.12.0",
+    "request": "^2.79.0"
+  }
+}
